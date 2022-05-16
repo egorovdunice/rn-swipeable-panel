@@ -272,7 +272,7 @@ class SwipeablePanel extends Component<SwipeablePanelProps, SwipeablePanelState>
 const SwipeablePanelStyles = StyleSheet.create({
   background: {
     position: 'absolute',
-    zIndex: 1,
+    zIndex: 999991,
     bottom: 0,
     justifyContent: 'center',
     alignItems: 'center',
@@ -300,7 +300,7 @@ const SwipeablePanelStyles = StyleSheet.create({
     shadowOpacity: 0.18,
     shadowRadius: 1.0,
     elevation: 1,
-    zIndex: 2,
+    zIndex: 999992,
   },
   scrollViewContentContainerStyle: {
     width: '100%',
